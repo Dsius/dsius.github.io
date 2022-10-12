@@ -1,8 +1,22 @@
 html {
-    background-color: black;
+    background: gray;
     color: white;
 }
 
 header {
     text-align: center;
+}
+
+#form1 {
+    color: black;
+    width: 50%;
+}
+
+#todolist {
+    color: white;
+}
+
+#form2 {
+    color: black;
+    width: 50%;
 }
