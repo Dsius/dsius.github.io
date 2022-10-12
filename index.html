@@ -9,12 +9,30 @@
     </header>
 
     <body>
+        
         <section>
             <ol>
                 <li>Create to-do list</li>
                 <li>Create CV</li>
             </ol>
         </section>
-
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Please select</legend>
+                    <div>
+                        <input type="radio" id="red" value="red" name="color" checked>
+                        <label for="red">red</label>
+                        <input type="radio" id="blue" value="blue" name="color">
+                        <label for="blue">blue</label>
+                    </div>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+            <pre id="log123"></pre>
+        </section>
+        <script src="script.js"></script>
     </body>
 </html>
